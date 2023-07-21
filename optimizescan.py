@@ -34,8 +34,7 @@ Input: 404 ; Output: 0.33
 """
 
 class Solution:    
-    def optimizescan(self, battcap):
-        return(((battcap/500)**2)/2)
+    optimizescan = lambda battcap: ((battcap/500)**2)/2
 
 def main():
     battcap = int(input())
